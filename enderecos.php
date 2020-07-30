@@ -21,3 +21,6 @@ $outroEndereco = new Endereco(
 echo $umEndereco . PHP_EOL;
 echo $outroEndereco . PHP_EOL;
 
+$outroEndereco->cidade = 'Pederneiras';
+echo $outroEndereco;
+
